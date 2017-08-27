@@ -1,0 +1,12 @@
+name: SheepBump
+main: me.i3ick.SheepBump.SheepBumpMain
+version: 1.1
+description: Hit the sheep to make them change color
+commands:
+
+permissions:
+  sheepbump.*:
+    description: "Gain access to all commands!"
+    children:
+      sheepbump.bump: true
+      sheepbump.tnt: true
